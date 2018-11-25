@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sky">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:padding="20sp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:src="@drawable/pic"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blank"
+
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+        <com.example.sys.signup.MyText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/resource"
+            android:elevation="2sp"
+            android:gravity="center_horizontal"
+            android:padding="14sp"
+            android:text="SIGN IN"
+            android:textColor="#dff5f5" />
+        <com.example.sys.signup.MyText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="forget password?"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#da2424"/>
+        <com.example.sys.signup.MyText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signupsky"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/sign"
+           />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

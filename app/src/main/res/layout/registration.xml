@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:background="@drawable/sky">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:src="@drawable/pic"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="UserName"
+                    />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone"
+                    />
+        </android.support.design.widget.TextInputLayout>
+                  <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    />
+        </android.support.design.widget.TextInputLayout>
+
+        <com.example.sys.signup.MyText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/resource"
+            android:elevation="2sp"
+            android:gravity="center_horizontal"
+            android:padding="14sp"
+            android:text="SIGN UP"
+            android:textColor="#dff5f5"
+            android:id="@+id/signup"/>
+        <com.example.sys.signup.MyText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Creating account You are agree to our"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#da2424"/>
+        <com.example.sys.signup.MyText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tnCpNpsky"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/signin"
+            />
+
+
+
+
+
+
+
+</LinearLayout>
